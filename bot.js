@@ -10,7 +10,7 @@
  */
 
 var config = {
-    name: 'Sparkbot',
+    name: 'Fiery Bot',
     userid: function () {
         return toId(this.name);
     },
@@ -348,11 +348,9 @@ var commands = {
 
             target = toId(target);
 
-            if (target === 'creaturephil') message = 'An experienced **coder** for pokemon showdown. He has coded for over 5 servers such as kill the noise, moxie, aerdeith, nova, etc. Please follow him on github: https://github.com/CreaturePhil';
+            if (target === 'aerosam') message = 'Dude!! He is the owner of this server!!!';
             if (target === config.userid()) message = 'That\'s me.';
-            if (target === 'zarel') message = 'Pokemon Showdown Creator';
-            if (target === 'stevoduhhero') message = 'STEVO DUH GOD DAMN HERO! Respect him!';
-            if (target === 'rickycocaine') message = 'RICKY COCAAAAAAAINE﻿';
+            if (target === 'zarel') message = 'Creator of Pokemon Showdown';
 
             this.sendReply(message);
         };
